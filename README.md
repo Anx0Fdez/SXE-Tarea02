@@ -8,7 +8,13 @@ sudo docker pull alpine
 ```bash
 sudo docker images
 ```
-
-
-
+### <u>*Actividad 2</u>:* 
+*Crea un contenedor sin ponerle nombre.* 
+```bash 
+sudo docker run -d alpine 
+``` 
+*Comprueba que el contenedor se ha creado.* 
+```bash 
+sudo docker ps -a 
+``` 
 
