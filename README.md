@@ -27,6 +27,16 @@ sudo docker ps -a
 ```bash
 sudo docker exec -it dam_alp1 /bin/sh
 ```
+### <u>*Actividad 4</u>:*
+*Comprueba que ip tiene.* 
+```bash
+ip a
+``` 
+*Comprueba si puedes hacer un ping a google.com* 
+```bash
+ping google.com
+```
+
 
 
 
