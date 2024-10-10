@@ -18,3 +18,16 @@ sudo docker run -d alpine
 sudo docker ps -a 
 ``` 
 
+### <u>*Actividad 3</u>:* 
+*Crea un contenedor con el nombre "dam_alp1".* 
+```bash
+ sudo docker run -it -d --name dam_alp1 alpine 
+```
+*Para acceder al contenedor.*
+```bash
+sudo docker exec -it dam_alp1 /bin/sh
+```
+
+
+
+
