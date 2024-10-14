@@ -16,8 +16,7 @@ sudo docker run -d alpine
 *Comprueba que el contenedor se ha creado.* 
 ```bash 
 sudo docker ps -a 
-``` 
-
+```
 ### <u>*Actividad 3</u>:* 
 *Crea un contenedor con el nombre "dam_alp1".* 
 ```bash
@@ -35,6 +34,30 @@ ip a
 *Comprueba si puedes hacer un ping a google.com* 
 ```bash
 ping google.com
+```
+
+### <u>*Actividad 5</u>:*
+*¿Puedes hacer ping entre los contenedores?*
+
+` Si, si se puede hacer ping entre los contenedores.`
+
+### <u>*Actividad 6</u>:*
+*¿Qué si sales de la terminal del contenedor, este sigue en ejecución?*
+
+`Este continua ejectandose.`
+
+### <u>*Actividad 7</u>:*
+*Para ver cuanto memoria ocuparon los contenedores.*
+
+```bash
+docker system df
+```
+
+### <u>*Actividad 8</u>:*
+*Para ver cuanta ram ocupan los contenedores.*
+
+```bash
+docker stats
 ```
 
 
